@@ -38,7 +38,6 @@ public class onChat implements Listener{
 		String n = p.getName();
 		if(plugin.getConfig().contains("controlled."+n)){
 			e.setCancelled(true);
-			p.sendMessage(ChatColor.GOLD+"[iControlU] "+ChatColor.RED+"You cannot send commands while being controlled!");
 		}
 	}
 }
